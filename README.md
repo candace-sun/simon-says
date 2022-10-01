@@ -4,7 +4,7 @@
 
 ### Background Information
 
-Initially created as an example project site for a Web Development class I taught during July 2022; as the class used Replit, it was developed on there. 
+Initially created as an example project site for a Web Development class I taught during July 2022; as the class used Replit, it was developed on there. Access the game [here](https://candace-sun.github.io/simon-says/).
 
 ### Features
 
