@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+  <title>Simon Says</title>
+</head>
+
+<body>
+  <br>
+  <div class="title">Simon Says</div><br>
+  <div class="wrapper" id="wrapper1">
+  <p id="note">Watch the flashes...</p>
+  <button id="start">Start!</button><br><br>
+    <div class="board">
+      <div class="tile" id="red" style="background-color:#f04c41"></div>
+      <div class="tile" id="yellow" style="background-color:#f0db41"></div>
+      <div class="tile" id="green" style="background-color:#85eb4b"></div>
+      <div class="tile" id="blue" style="background-color:#41c1f0"></div>
+    </div>
+  </div>
+  <div class="wrapper" id="wrapper2" style="display:none">
+    <p id="note2">Which tile flashed?</p>
+    <div class="board" id="board2">
+    <button id="b-red" style="background-color:#f04c41" onClick="check(0)"></button>
+    <button id="b-yellow" style="background-color:#f0db41" onClick="check(1)"></button>
+    <button id="b-green" style="background-color:#85eb4b" onClick="check(2)"></button>
+    <button id="b-blue" style="background-color:#41c1f0" onClick="check(3)"></button>
+    </div>
+  </div>
+  <div class="wrapper" id="wrapper3">
+  <button id="restart" onclick="restart()">Restart</button>
+  </div>
+  
+</body>
+
+</html>
